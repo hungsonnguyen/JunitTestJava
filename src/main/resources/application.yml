@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/swapnow-crud?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    username: root
+    password: openning
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
+
+#logging:
+#  level:
+#    com.zeusbe: DEBUG
